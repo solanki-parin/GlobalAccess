@@ -1,0 +1,60 @@
+# Ignore Visual Studio files
+*.sln
+*.vsconfig
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+.idea/
+*.so
+*.swp
+*.swo
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore build directories
+Binaries/
+Intermediate/
+
+# Ignore config files
+Saved/
+*.log
+*.tmp
+
+# Ignore user-specific files
+*.user
+*.userprefs
+*.useros
+*.uo
+*.uo.*.*.load
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore derived data cache
+DerivedDataCache/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore XCode project files
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# Ignore Unreal Engine derived files
+DerivedDataCache/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+enc_temp_folder/
+Content/DreamscapeSeries/
